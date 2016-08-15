@@ -1,0 +1,36 @@
+{
+  "name": "seneca-chain",
+  "version": "0.1.0",
+  "description": "API chaining for seneca",
+  "main": "chain.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/senecajs-labs/seneca-chain.git"
+  },
+  "keywords": [
+    "seneca",
+    "chainable",
+    "api",
+    "microservices",
+    "plugin"
+  ],
+  "author": "Dean McDonnell (https://github.com/mcdonnelldean)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/senecajs-labs/seneca-chain/issues"
+  },
+  "homepage": "https://github.com/senecajs-labs/seneca-chain#readme",
+  "devDependencies": {
+    "seneca": "^2.1.0"
+  },
+  "dependencies": {
+    "eraro": "^0.4.1",
+    "jsonic": "^0.2.2",
+    "lodash": "^4.15.0",
+    "norma": "^0.3.0",
+    "zig": "^0.1.1"
+  }
+}
