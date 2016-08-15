@@ -4,8 +4,6 @@ var Zig = require('zig')
 var _ = require('lodash')
 var Jsonic = require('jsonic')
 
-var Parse = require('./parse')
-
 function Chain () {}
 
 Chain.preload = function () {
@@ -20,7 +18,7 @@ function start (errhandler) {
   options.zig = options.zig || {}
 
   function make_fn (self, origargs) {
-    var args = Parse(self, origargs, 'fn:f?')
+    var args = sd.util.parsepattern(self, origargs, 'fn:f?')
 
     var actargs = _.extend(
       {},
