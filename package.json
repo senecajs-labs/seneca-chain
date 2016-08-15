@@ -24,13 +24,11 @@
   },
   "homepage": "https://github.com/senecajs-labs/seneca-chain#readme",
   "devDependencies": {
-    "seneca": "^2.1.0"
+    "seneca": "plugin"
   },
   "dependencies": {
-    "eraro": "^0.4.1",
     "jsonic": "^0.2.2",
     "lodash": "^4.15.0",
-    "norma": "^0.3.0",
     "zig": "^0.1.1"
   }
 }
