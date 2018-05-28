@@ -1,6 +1,6 @@
 {
   "name": "seneca-chain",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "API chaining for seneca",
   "main": "chain.js",
   "scripts": {
@@ -24,11 +24,11 @@
   },
   "homepage": "https://github.com/senecajs-labs/seneca-chain#readme",
   "devDependencies": {
-    "seneca": "plugin"
+    "seneca": "github:senecajs/seneca"
   },
   "dependencies": {
-    "jsonic": "^0.2.2",
-    "lodash": "^4.15.0",
-    "zig": "^0.1.1"
+    "jsonic": "0",
+    "lodash": "4.17",
+    "zig": "0.3"
   }
 }
